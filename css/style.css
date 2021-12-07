@@ -1,0 +1,14 @@
+body {
+  background-color: white;
+  width: auto;
+  height: auto;
+}
+
+.Logo {
+  height: 40%;
+  width: 50%;
+}
+
+.padnav {
+  padding: 1.5rem 15% 0;
+}
