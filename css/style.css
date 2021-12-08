@@ -1,3 +1,13 @@
+/* Fonts */
+
+/* font-family: 'Raleway', sans-serif; */
+
+/* Preset */
+
+.pad1 {
+  padding: 7% 15%;
+}
+
 body {
   background-color: white;
   width: auto;
@@ -11,4 +21,35 @@ body {
 
 .padnav {
   padding: 1.5rem 15% 0;
+}
+
+.navbardark {
+  background-color: black;
+}
+
+.navfont {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.3rem;
+}
+
+.padnav1{
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+/* MEDIA QUERIES */
+
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 576px) {
+
+.Logo1 {
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.padnav1 {
+  text-align: center;
+}
+
 }
